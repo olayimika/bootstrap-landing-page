@@ -1,0 +1,122 @@
+.navbar{
+    background: black;
+}
+.navbar-brand:hover{
+    color: rgba(233, 221, 221, 0.699); 
+}
+.nav-link, .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+}
+.navbar,.form-control{
+    border-radius: 0;
+    border-width: 0;
+    padding: .75rem 1rem;
+}
+.nav-link{
+    margin-right: 1em !important;
+   }
+   .nav-link:hover{
+    background: #f5c79f;
+    color: #181a18;
+   }
+
+   .navbar-collapse{
+    justify-content: flex-end;
+   }
+   .navbar-toggler{
+     background:#fff !important;
+   }
+   .form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+  }
+  .form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+    
+  }
+  .header{
+    background-image: url('beach-black-and-white-clouds-417223.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+   }
+   .overlay{
+       position: absolute;
+       min-height: 100%;
+       min-width: 100%;
+       left: 0;
+       top: 0;
+       background: rgba(88, 85, 85, 0.79);
+   }
+  .description{
+      position: absolute;
+      top: 30%;
+      margin: auto;
+      padding: 2em;
+  }
+  .description h3{
+      color: #f5c79f;
+  }
+  .description h2{
+      color: rgb(255, 255, 255);
+  }
+  .description p{
+      color: #fff;
+      font-size: 20px;
+      width: 50%;
+      line-height: 1.5;
+  }
+  .description button{
+      border: 1px solid #f5c79f;
+      color: #fff;
+
+  }
+  .description button:hover{
+      background-color: #f5c79f;
+  }
+  .about{
+      margin: 4em 0;
+      padding: 1em;
+      position: relative;
+  }
+  .about h1{
+      color: #f5c79f;
+      margin: 2em;
+  }
+  .about img{
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+  }
+  .about span{
+      display: block;
+      color: #888;
+      position: absolute;
+      left: 45%;
+  }
+  .about .desc{
+      padding: 2em;
+      border-left: 4px solid #10828c;
+  }
+  .about .desc h3{
+      color: #10828c;
+  }
+  .about .desc p{
+      color: #888;
+  }
+  .portfolio{
+      margin: 4em;
+      position: relative;
+  }
+  .portfolio h1{
+      color: #f5c79f;
+      margin: 2em;
+  }
+  .portfolio img{
+      height: 13rem;
+      width: 100%;
+      margin: 1em;
+  }
